@@ -10,7 +10,6 @@ import Icon from 'react-native-vector-icons/Entypo';
 const {height, width} = Dimensions.get('window');
 
 const ModalTotal = ({ price, closeModal }) => {
-	console.log('rrreaesr', price)
 	return(
 		<TouchableOpacity 
 			style={{flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between'}}
