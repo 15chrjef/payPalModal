@@ -7,7 +7,7 @@ import {
   Dimensions,
   Modal
 } from 'react-native';
-	const {height, width} = Dimensions.get('window');
+const {height, width} = Dimensions.get('window');
 
 const ModalSubmission = () => {
 	const { normalFlex, button, buttonText } = styles;
@@ -34,10 +34,6 @@ const ModalSubmission = () => {
 
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-  },
   button: {
     backgroundColor: '#1072B7',
     width: width * .85,
@@ -51,23 +47,6 @@ const styles = StyleSheet.create({
   buttonText: {
     color: 'white',
     fontWeight: 'bold'
-  },
-  modal: {
-    width: width,
-    height: height,
-    backgroundColor: 'white',
-  },
-  modalTitle: {
-    fontWeight: 'bold',
-    marginBottom: 8
-  },
-  modalRow: {
-    flex: 2, 
-    justifyContent: 'center',
-  },
-  modalRowButton: {
-    marginLeft: 20,
-    marginRight: 10
   }
 });
 
