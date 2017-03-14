@@ -5,12 +5,12 @@ To Start
 
 Download Exponent: getexponent.com
 Download XCode
-``
+```
 git clone https://github.com/15chrjef/payPalModal/ modal
 cd modal
 npm i
 npm start
-``
+```
 open client folder within the modal directory within exponent
 run iOS simulator from exponent
 Enjoy!
