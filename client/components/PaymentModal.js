@@ -29,12 +29,9 @@ export default class PaymentModal extends React.Component {
 				<View style={modal}>
 					<ModalRow Title='Ship To' MainInfo={shipping.name} Details={shipping.address} closeModal={closeModal}/>
 					<ModalRow Title='Pay With' MainInfo={bank.type} Details={bank.card} closeModal={closeModal}/>
-					<View style={[modalRow, { flex: .7, backgroundColor: '#F7F9FA'}]}>
-						<ModalTotal price={price} closeModal={closeModal}/>
-					</View>
+					<ModalTotal price={price} closeModal={closeModal}/>
 					<ModalSubmission/>
-					<View style={{flex:1}}>
-					</View>
+					<View style={{flex:1}}/>
 				</View>
 				</View>
 			</Modal>
