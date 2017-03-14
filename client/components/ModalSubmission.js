@@ -5,7 +5,6 @@ import {
   Text,
   View,
   Dimensions,
-  Modal
 } from 'react-native';
 const {height, width} = Dimensions.get('window');
 
