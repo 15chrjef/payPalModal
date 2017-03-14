@@ -4,8 +4,7 @@ import {
   TouchableOpacity,
   Text,
   View,
-  Dimensions,
-  Modal
+  Dimensions
 } from 'react-native';
 const {height, width} = Dimensions.get('window');
 import Icon from 'react-native-vector-icons/Entypo';
