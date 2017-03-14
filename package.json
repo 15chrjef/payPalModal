@@ -1,0 +1,24 @@
+{
+  "name": "asd",
+  "version": "1.0.0",
+  "description": "a modal for a peer to peer payment in paypal with React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/15chrjef/payPalModal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/15chrjef/payPalModal/issues"
+  },
+  "homepage": "https://github.com/15chrjef/payPalModal#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0"
+  }
+}
